@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<!-- Claire Howard, CSCE102-015-->
+	<title>Project Part 5</title>
+</head>
+<body>
+	<div class="content">
+		<header>
+			<h1>Claire Howard</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div id="directions">
+				<h3 class="cyan">Directions</h3>
+				<h4 class="cadet">The Howard Institute for Success</h4>
+				<p>301 San Jacinto Blvd <br> Austin, TX 78701</p>
+				<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.0278913179213!2d-97.7410761!3d30.264786500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a7e32dbfad%3A0xd2e26045633aaffd!2s301%20San%20Jacinto%20Blvd%2C%20Austin%2C%20TX%2078701!5e0!3m2!1sen!2sus!4v1679876993734!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+			<div id="contact">
+			<h3 class="cyan">Contact Me</h3>
+			<form action="https://api.web3forms.com/submit" method="POST">
+				<input type="hidden" name="access_key" value="a5202105-9bcd-4deb-b269-debb5626c190">
+				<p>Name:</p><input type="text" name="name" required>
+				<p>Email:</p><input type="email" name="email" required>
+				<p>Message:</p><textarea name="message" required></textarea>
+				<input type="hidden" name="redirect" value="https://web3forms.com/success">
+				<br> <button onclick="emailSent()" type="submit">Submit Form</button>
+			</form>
+			</div>
+		</main>
+		<footer>
+			<p>&copy;claire</p>
+		</footer>
+	
+	</div>
+</body>
+</html>

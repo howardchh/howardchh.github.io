@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<!-- Claire Howard, CSCE102-015-->
+	<title>Project Part 5</title>
+</head>
+<body>
+	<div class="content">
+		<header>
+			<h1>Claire Howard</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main class="quiz-container">
+			<section id="quiz">
+			<h3>Website Development Quiz</h3>
+			<p>1. What is the correct HTML code for creating a hyperlink? </p>
+				<select id="answers-one">
+					<option value="1A">&lt;a&gt;https://www.youtube.com/&lt;/a&gt;</option>
+					<option value="1B">&lt;a url="https://www.youtube.com/&gt;Youtube&lt;/a&gt;</option>
+					<option value="1C">&lt;a href="https://www.youtube.com/&gt;Youtube&lt;/a&gt;</option>
+					<option value="1D">&lt;a="https://www.youtube.com/&gt;Youtube&lt;/a&gt;</option>
+				</select>
+			<p>2. Which element is NOT a &lt;table&gt; element? </p>
+				<select id="answers-two">
+					<option value="2A">&lt;tr&gt;</option>
+					<option value="2B">&lt;tc&gt;</option>
+					<option value="2C">&lt;td&gt;</option>
+					<option value="2D">&lt;th&gt;</option>
+				</select>
+			<p>3. Using CSS, how do you remove the bullets from an unordered list?</p>
+				<select id="answers-three">
+					<option value="3A">{text-decoration:none;}</option>
+					<option value="3B">{text-decoration-style:none;}</option>
+					<option value="3C">{decoration-style:none;}</option>
+					<option value="3D">{text-style:none;}</option>
+				</select>
+			<p>4. What is the correct way to "grab" an element inJavaScript</p>
+				<select id="answers-four">
+					<option value="4A">document.getElementById="element";</option>
+					<option value="4B">document.getElementById("element");</option>
+					<option value="4C">document=getElementById("element");</option>
+					<option value="4D">document.getElementById:element;</option>
+				</select>
+				<br>
+				<button id="submit" onclick="showQuizResults()">Submit</button>
+		</section>
+		<section id="quiz-results">
+			<h3>Quiz Results</h3>
+			<div id="result">
+				
+			</div>
+		</section>
+		</main>
+		<footer>
+			<p>&copy;claire</p>
+		</footer>
+	<script src="script.js"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+/*Claire Howard, CSCE102-015, Project Part 5*/
+
+/*Main Structure*/
+body{
+	font-family:Verdana;
+	background:#BCCCA9;
+}
+.content{
+	width:80%;
+	margin:auto;
+}
+header,nav,main,footer{
+	padding:5px;
+	margin:0;
+}
+header{
+	background:#A9BFAC;
+	text-align:center;
+}	
+nav{
+	background:#B2D6C1;
+}
+main{
+	background:#A9CCC2;
+}
+footer{
+	background:#A9BFAC;
+}
+
+
+/*Navigation*/
+#main-nav ul{
+	list-style-type:none;
+	padding-left:0;
+	text-align:center;
+}
+#main-nav li{
+	display:inline;
+}
+#main-nav a{
+	text-decoration:none;
+	background:#BCCCA9;
+	color:black;
+	padding:3px;
+	border-radius:1px;
+	display:inline;
+	margin:2px;
+	width:100%;
+}
+#main-nav a:hover{
+	background:#FDEADB;
+	color:black;
+}
+
+
+/*Section Formatting*/
+.quiz-container{
+	display:flex;
+}
+#quiz, #quiz-result{
+	flex: 1;
+}
+h2{
+	text-align:center;
+}
+#more{
+	display:none;
+}
+.hidden{
+	display:none;
+}
+
+/*Colors*/
+.cyan{
+	color:darkCyan;
+}
+.cadet{
+	color:cadetBlue;
+}
+
+
+/*SlideShow*/
+.showSlides {
+	display: none;
+}
+img{
+	vertical-align: middle;
+}
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	border: 5px solid;
+	border-color: darkCyan;
+}
+
+/*Larger Resolutions*/
+@media(max-width:720px){
+	.container{
+		width:80%;
+		margin:auto;
+	}
+	main{
+		display:block;
+	}
+	#main-nav li{
+		display:block;
+	}
+	#main-nav a{
+		display:block;
+	}
+	#main-nav ul{
+		padding-left:0;
+	}
+	#main-nav{
+	}
+}
+
